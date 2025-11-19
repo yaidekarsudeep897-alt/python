@@ -1,4 +1,4 @@
-"""def my_data(func):
+def my_data(func):
     def wrapper():
         print("Yaidekar Sudeep")
         func()
@@ -10,7 +10,7 @@ def intro():
     
     print(f"Mother Name : {"kenchamma"}")
 
-intro()"""
+intro()
 
 def show_res(fanc):
     def wrapper(a,b):
@@ -34,4 +34,5 @@ def div(a,b):
 add(4,5)
 sub(8,2)
 mul(9,3)
+
 div(6,2)
